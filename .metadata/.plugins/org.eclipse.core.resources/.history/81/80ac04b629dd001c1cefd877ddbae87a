@@ -1,0 +1,21 @@
+package com.Question2;
+
+public class Main {
+
+	void run(Animal a) {
+		a.eat();
+		
+		if (a instanceof Dog) {
+//			Dog d = (Dog)a;
+			d.bark();
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+		Main main = new Main();
+		
+		main.run(new Animal());
+		main.run(new Dog());
+	}
+}

@@ -1,0 +1,23 @@
+package com.Question2;
+
+
+//Class cast Exception -> If you try to call 
+//
+class Animal {
+    public void eat() {
+        System.out.println("Eating for grass");
+    }
+}
+
+class Goat extends Animal {
+    public void eat() {
+        System.out.println("Goat exdents Animal");
+    }
+}
+
+class Sheep extends Goat{
+  public void eat() {
+        System.out.println("sheep extentds Goat");
+  }
+
+}

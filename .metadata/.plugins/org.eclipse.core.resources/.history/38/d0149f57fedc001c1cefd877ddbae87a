@@ -1,0 +1,42 @@
+package com.day5.Q3;
+
+import java.util.Scanner;
+
+public class AccountDetails {
+	
+	public static Account getAccountDetails() {
+		
+		Account a1 = new Account();
+		
+		Scanner ac1 = new Scanner(System.in);
+		
+		System.out.println("Enter account ID : ");
+		int acID =  ac1.nextInt();
+		
+		ac1.nextLine();
+		
+		System.out.println("Enter account type : ");
+		String acType =  ac1.nextLine();
+		
+		System.out.println("Enter balance : ");
+		int balance = ac1.nextInt();
+		
+		System.out.println("Enter amount to be withdrawn : ");
+		int withdrawn = ac1.nextInt();
+		
+		a1.setAccountId(acID);
+		
+		
+		
+		return a1;
+	}
+
+	public static void main(String[] args) {
+		
+		AccountDetails ac1 = new AccountDetails();
+		
+		ac1.getAccountDetails();
+		
+		
+	}
+}

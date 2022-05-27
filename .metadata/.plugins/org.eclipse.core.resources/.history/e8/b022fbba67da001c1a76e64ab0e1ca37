@@ -1,0 +1,20 @@
+package com.day5.EmpQ1;
+
+public class EmployeeMain {
+
+	public static void main(String[] args) {
+		System.out.println("hello");
+		
+		Employee e1;
+		
+		e1 = Employee.getEmployeeDetails();
+		 int x  = Employee.getPFPercentage();
+		 
+		e1.calculateNetSalary(x);
+		
+		System.out.println(e1.getEmployeeId());
+		
+		
+	}
+	
+}

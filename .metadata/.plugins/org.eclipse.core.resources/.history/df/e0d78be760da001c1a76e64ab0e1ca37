@@ -1,0 +1,9 @@
+package com.day5.EmpQ1;
+
+public class EmployeeMain {
+
+	public static void main(String[] args) {
+		
+		Employee e1 = new Employee(101,"vivek",20000);
+	}
+}

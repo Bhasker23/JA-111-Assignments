@@ -1,0 +1,11 @@
+package com.day5.Q3;
+
+public class AccountDetails {
+
+	public static void main(String[] args) {
+		
+		public Account getAccountDetails() {
+			
+		}
+	}
+}

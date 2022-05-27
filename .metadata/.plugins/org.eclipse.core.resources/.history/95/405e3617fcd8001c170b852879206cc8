@@ -1,0 +1,14 @@
+package com.day5.EmpQ1;
+
+public class Employee {
+
+	private int employeeId;
+	private String employeeName;
+	private double salary;
+	private double netSalary;
+	
+	public void calculateNetSalary(int pfpercentage) {
+		
+		netSalary = salary - 
+	}
+}

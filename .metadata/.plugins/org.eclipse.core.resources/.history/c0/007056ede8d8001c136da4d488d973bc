@@ -1,0 +1,23 @@
+package com.Day4;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+		
+		Student s1 = new Student();
+		s1.setRoll(10);
+		s1.setAge(25);
+		s1.setName("Ram");
+		s1.setMarks(480);
+		s1.showStudentDetails();
+		
+		
+		Student s2 = new Student(15, "Lakhan", 20, 450);
+		
+		System.out.println("Student 2 Details");
+		System.out.println(s2.getRoll());
+		System.out.println(s1.getName());
+		System.out.println(s1.getAge());
+		System.out.println(s1.getMarks());
+	}
+}

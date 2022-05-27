@@ -1,0 +1,20 @@
+package com.Day4.Problem3;
+
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+//	Student s1 = new Student();
+	
+	 Student s1 = Student.getStudent(true);
+	 s1.setCollageName("NIT");
+	 
+//	 if (s1equal(s1)) {
+		 Student st1 = new Student(1, "Gopal", "Udaipur");
+			
+			 System.out.println(st1.getRoll());
+//	}
+	
+	}
+}

@@ -1,0 +1,11 @@
+package com.Question2;
+
+public class Main {
+
+	
+	    public static void main(String[] args) {
+	        Animal a = new Animal();
+	        Another t5 = (Another) new Goat();
+	    
+	}
+}

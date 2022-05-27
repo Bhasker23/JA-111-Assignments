@@ -1,0 +1,14 @@
+package com.Day4.Problem3;
+
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+//	Student s1 = new Student();
+	
+	 Student s1 = Student.getStudent(true);
+	 
+	 System.out.println(s1);
+	}
+}
