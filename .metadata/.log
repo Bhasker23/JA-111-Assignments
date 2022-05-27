@@ -10062,3 +10062,39 @@ Binding(CTRL+INSERT,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-27 19:59:59.412
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-27 19:59:59.413
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-27 19:59:59.415
+!MESSAGE buffering callback sts4.classpath.NPyRRbph Day 7 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-27 19:59:59.415
+!MESSAGE executing callback sts4.classpath.NPyRRbph 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-27 19:59:59.434
+!MESSAGE executing callback sts4.classpath.NPyRRbph SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-27 20:00:44.152
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-27 20:00:44.153
+!MESSAGE buffering callback sts4.classpath.NPyRRbph Day 7 true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-27 20:00:44.154
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-27 20:00:44.155
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-27 20:00:44.156
+!MESSAGE buffering callback sts4.classpath.NPyRRbph Day 7 Assignments false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-27 20:00:44.157
+!MESSAGE executing callback sts4.classpath.NPyRRbph 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-27 20:00:44.228
+!MESSAGE executing callback sts4.classpath.NPyRRbph SUCCESS [done]
