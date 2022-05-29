@@ -15,7 +15,6 @@
     <fullyQualifiedTypeName name="java.security.PKCS12Attribute"/>
     <fullyQualifiedTypeName name="com.JA111.C1.Prob2.Course"/>
     <fullyQualifiedTypeName name="com.JA111.C1.Prob5.Shapes"/>
-    <fullyQualifiedTypeName name="java.io.Console"/>
     <fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.BoldAction"/>
     <fullyQualifiedTypeName name="com.day5.EmpQ1.Employee"/>
     <fullyQualifiedTypeName name="com.JA111.C1.Problem4.Student"/>
@@ -24,11 +23,6 @@
     <fullyQualifiedTypeName name="com.day5.Question2.Ticket"/>
     <fullyQualifiedTypeName name="java.security.PublicKey"/>
     <fullyQualifiedTypeName name="java.text.BreakIterator"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.lang.Runtime"/>
-    <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="com.day5.Q4.Student"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="com.day5.Q3.Account"/>
@@ -46,4 +40,17 @@
     <fullyQualifiedTypeName name="com.Question4.Dog"/>
     <fullyQualifiedTypeName name="com.Question4.Cat"/>
     <fullyQualifiedTypeName name="com.Question4.Tiger"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.InheritableThreadLocal"/>
+    <fullyQualifiedTypeName name="javax.swing.InputMap"/>
+    <fullyQualifiedTypeName name="java.io.Console"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.PrimeNumber.Main"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="javax.naming.spi.DirStateFactory.Result"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.lang.Runtime"/>
 </qualifiedTypeNameHistroy>
