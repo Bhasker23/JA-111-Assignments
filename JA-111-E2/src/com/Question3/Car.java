@@ -3,8 +3,8 @@ package com.Question3;
 
 public class Car {
 	
-	int numberOfPassenger;
-	int numberOfKms;
+	private int numberOfPassenger;
+	private   int numberOfKms;
 
 
 public Car bookCar(int numberOfPassenger, int numberOfKMs) {
@@ -14,9 +14,13 @@ public Car bookCar(int numberOfPassenger, int numberOfKMs) {
 	Hatchback hatchback = new Hatchback();
 	
 	if (numberOfPassenger <= 3 ) {
-		return hatchback;
+		hatchback.setNumberOfPassenger(numberOfPassenger);
+		hatchback.setNumberOfKms(numberOfKMs);
+		return hatchback; 
 	}
 	else {
+		sedan.setNumberOfKms(numberOfKMs);
+		sedan.setNumberOfPassenger(numberOfPassenger);
 		return sedan;
 	}
 
@@ -24,22 +28,36 @@ public Car bookCar(int numberOfPassenger, int numberOfKMs) {
 
 public int calculateBill(Car car) {
 	
+	int x = 0;
 	Car typeCar = car;
 	
+	if (typeCar instanceof Hatchback) {
+		
+		Hatchback hatchback = new Hatchback();
+		
+		int amount = (typeCar.numberOfKms * hatchback.farePerKm  );
+		
+		return amount;
 	
-	System.out.println(typeCar );
+	}
+	else if (typeCar instanceof Sedan) {
+		
+		Sedan sedan = new Sedan();
+		int amount = (typeCar.numberOfKms * sedan.farePerKm  );
+		
+		return amount;
+	} 
+	else {
+		return x;
+	}
 	
-	int amount = 0;
 	
 	
+//	return x;
 	
-	
-//	System.out.println("kms is "+typeCar.numberOfKms +" fare " + typeCar.farePerKm);
 
-//	int amount = (typeCar.numberOfKms * typeCar.farePerKm  );
+
 	
-	
-	return amount;
 }
 
 public int getNumberOfPassenger() {
@@ -61,24 +79,12 @@ public void setNumberOfKms(int numberOfKms) {
 }
 
 class Sedan extends Car{
-	
-	
-	@Override
-	public String toString() {
-		return "Sedan";
-	}
 
 	final int farePerKm =20;
 }
 
 class Hatchback extends Car{
 	
-	
 	final int farePerKm =15;
 
-	@Override
-	public String toString() {
-		return "Hatchback";
-	}
-	
 }

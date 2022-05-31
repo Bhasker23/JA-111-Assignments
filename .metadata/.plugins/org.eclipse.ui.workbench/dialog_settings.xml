@@ -8,13 +8,13 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
-			<item value="search.in.help"/>
+			<item value="org.eclipse.ui.preferencePages.Views"/>
 			<item value="org.eclipse.ui.edit.text.zoomIn"/>
 			<item value="org.eclipse.ui.edit.text.zoomOut"/>
 			<item value="org.eclipse.egit.ui.GitRepositoryExploring"/>
 		</list>
 		<list key="orderedProviders">
-			<item value="search.help"/>
+			<item value="org.eclipse.ui.preferences"/>
 			<item value="org.eclipse.ui.commands"/>
 			<item value="org.eclipse.ui.commands"/>
 			<item value="org.eclipse.ui.perspectives"/>
@@ -26,7 +26,7 @@
 			<item value="1"/>
 		</list>
 		<list key="textArray">
-			<item value="com.day5"/>
+			<item value="dark s"/>
 			<item value="zoo"/>
 			<item value="zoom"/>
 			<item value="git"/>

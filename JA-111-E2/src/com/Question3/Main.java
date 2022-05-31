@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 
 public class Main {
+	
+	
 
 	public static void main(String[] args) {
 		
@@ -23,10 +25,12 @@ public class Main {
 		myCar.setNumberOfPassenger(passenger);
 		
 		Car bookMyCar = myCar.bookCar(passenger, Kms);
+		
 		int totalFare = myCar.calculateBill(bookMyCar); 
 		
 		System.out.println("Total Fare is : " + totalFare);
 		
 		
+	
 	}
 }
