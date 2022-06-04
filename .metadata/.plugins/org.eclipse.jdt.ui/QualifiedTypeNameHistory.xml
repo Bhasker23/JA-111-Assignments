@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.day5.EmpQ1.EmployeeMain"/>
-    <fullyQualifiedTypeName name="com.JA111.C1.Prob1.StringAndStringBuilder"/>
-    <fullyQualifiedTypeName name="java.security.PKCS12Attribute"/>
-    <fullyQualifiedTypeName name="com.JA111.C1.Prob2.Course"/>
-    <fullyQualifiedTypeName name="com.JA111.C1.Prob5.Shapes"/>
-    <fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.BoldAction"/>
-    <fullyQualifiedTypeName name="com.day5.EmpQ1.Employee"/>
-    <fullyQualifiedTypeName name="com.JA111.C1.Problem4.Student"/>
-    <fullyQualifiedTypeName name="java.security.KeyStore.TrustedCertificateEntry"/>
-    <fullyQualifiedTypeName name="com.Day4.Problem3.Student"/>
     <fullyQualifiedTypeName name="com.day5.Question2.Ticket"/>
     <fullyQualifiedTypeName name="java.text.BreakIterator"/>
     <fullyQualifiedTypeName name="com.day5.Q4.Student"/>
@@ -38,9 +28,7 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.lang.Runtime"/>
     <fullyQualifiedTypeName name="com.practice.Parent"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicBorders.RolloverButtonBorder"/>
-    <fullyQualifiedTypeName name="com.Question2.Student"/>
     <fullyQualifiedTypeName name="java.security.PublicKey"/>
     <fullyQualifiedTypeName name="java.lang.Void"/>
     <fullyQualifiedTypeName name="com.Question3.Car.Sedan"/>
@@ -49,15 +37,27 @@
     <fullyQualifiedTypeName name="javax.imageio.ImageTranscoder"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.lang.Package"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.GradeoftheStudent.Student"/>
     <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="com.Q3.Parent"/>
-    <fullyQualifiedTypeName name="com.Q3.Child"/>
     <fullyQualifiedTypeName name="com.Question3.Hatchback"/>
     <fullyQualifiedTypeName name="com.Question3.Car"/>
     <fullyQualifiedTypeName name="javax.management.loading.PrivateClassLoader"/>
     <fullyQualifiedTypeName name="com.Question3.Sedan"/>
+    <fullyQualifiedTypeName name="com.Q3.Child"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="com.Question1.RoadSideHotel"/>
+    <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
+    <fullyQualifiedTypeName name="com.Question1.Demo"/>
+    <fullyQualifiedTypeName name="com.Question1.Hotel"/>
+    <fullyQualifiedTypeName name="com.Question1.TajHotel"/>
+    <fullyQualifiedTypeName name="com.Question2.Shape"/>
+    <fullyQualifiedTypeName name="com.Question4.Area"/>
+    <fullyQualifiedTypeName name="com.Question2.Student"/>
+    <fullyQualifiedTypeName name="com.Question2.ScienceStudent"/>
+    <fullyQualifiedTypeName name="com.Question2.HistoryStudent"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
