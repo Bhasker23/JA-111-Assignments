@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.day5.Question2.Ticket"/>
-    <fullyQualifiedTypeName name="java.text.BreakIterator"/>
-    <fullyQualifiedTypeName name="com.day5.Q4.Student"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
-    <fullyQualifiedTypeName name="com.day5.Q3.Account"/>
-    <fullyQualifiedTypeName name="com.Question1.Parrot"/>
-    <fullyQualifiedTypeName name="com.Question1.Bird"/>
     <fullyQualifiedTypeName name="javax.management.modelmbean.ModelMBeanAttributeInfo"/>
     <fullyQualifiedTypeName name="com.Question2.Main"/>
     <fullyQualifiedTypeName name="com.Question2.Dog"/>
@@ -35,7 +28,6 @@
     <fullyQualifiedTypeName name="javax.security.auth.x500.X500Principal"/>
     <fullyQualifiedTypeName name="com.Question3.Car.Hatchback"/>
     <fullyQualifiedTypeName name="javax.imageio.ImageTranscoder"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.lang.Package"/>
     <fullyQualifiedTypeName name="com.GradeoftheStudent.Student"/>
     <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction"/>
@@ -57,7 +49,15 @@
     <fullyQualifiedTypeName name="com.Question2.Student"/>
     <fullyQualifiedTypeName name="com.Question2.ScienceStudent"/>
     <fullyQualifiedTypeName name="com.Question2.HistoryStudent"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.Question1.X"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.Question1.ZImpl"/>
+    <fullyQualifiedTypeName name="javax.swing.table.TableStringConverter"/>
+    <fullyQualifiedTypeName name="com.Question2.Mobile"/>
+    <fullyQualifiedTypeName name="com.Question3.IPL"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Enum"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.Question3.Stadium"/>
 </qualifiedTypeNameHistroy>
