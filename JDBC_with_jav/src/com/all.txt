@@ -1,0 +1,155 @@
+=================
+Statement
+=================
+public class Main {
+
+	public static void main(String[] args) {
+
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+		String str ="jdbc:mysql://localhost:3306/db1";
+		try (Connection connection= DriverManager.getConnection(str,"root","L@xmi16101995")){
+			Statement statement = connection.createStatement();
+			int rSet= statement.executeUpdate("update employee set salary=salary+500");
+			if(rSet>0) System.out.println("done");
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} 
+	}
+
+}
+
+=================
+PreparedStatement
+=================
+public class Main {
+
+	public static void main(String[] args) {
+
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+		String str ="jdbc:mysql://localhost:3306/db1";
+		try (Connection connection= DriverManager.getConnection(str,"root","L@xmi16101995")){
+			PreparedStatement statement = connection.prepareStatement("update employee set salary=salary+500");
+			int rSet= statement.executeUpdate();
+			if(rSet>0) System.out.println("done");
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} 
+	}
+
+}
+
+emolyee bean class required
+=================
+Connection Provider
+=================
+public class ConnectionProviderClass {
+
+	public static Connection methodConnectionProvide() {
+		
+		Connection connectionObj = null;
+		
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+		
+		String string= "jdbc:mysql://localhost:3306/db1";
+		
+		try {
+			connectionObj = DriverManager.getConnection(string, "root", "L@xmi16101995");
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return connectionObj;
+		
+	}
+
+}
+===============================
+INTERFACE ALL ABSTRACT METHODS
+===============================
+public interface TotalOperationOnEmployeeTable {
+
+	public int enterIdGetSalryOfEmployee(int roll) throws EmployeeNotFound;
+	
+	public List<Employee> printAllEmployees() throws EmployeeNotFound;
+
+	public void withoutAddressInserFields(int id, String name, int salary) throws EmployeeNotFound;
+	
+	public Employee searchEmployee(int id) throws EmployeeNotFound;
+	
+	public List<Employee> printAllEmployeesWithCondition() throws EmployeeNotFound;
+}
+===============================
+userDefinedException
+===============================
+package com.userDefinedException;
+
+public class EmployeeNotFound extends Exception{
+
+	public EmployeeNotFound() {
+		
+	}
+	public EmployeeNotFound(String massage) {
+		
+		super(massage);
+	}
+}
+===============================
+operation print all employee
+===============================
+public class ImplTotalOperationOnEmployeeTable implements TotalOperationOnEmployeeTable {
+	@Override
+	public List<Employee> printAllEmployees() throws EmployeeNotFound {
+		List<Employee> listEmployees=new ArrayList<>();
+		
+		try(Connection connection= ConnectionProviderClass.methodConnectionProvide() ) {
+			
+			PreparedStatement ps= connection.prepareStatement("select * from employee");
+			
+			ResultSet resultSet = ps.executeQuery();
+			while (resultSet.next()) {
+				Employee employee= new Employee(resultSet.getInt("eid"), resultSet.getString("name"), resultSet.getString("address"), resultSet.getInt("salary"));
+				listEmployees.add(employee);
+			}
+			
+			if(listEmployees.size()==0) throw new EmployeeNotFound("No Employees"); 
+			
+		} catch (SQLException e) {
+			throw new EmployeeNotFound(e.getMessage()); 
+		}
+		
+		return listEmployees;
+	}
+}
+===============================
+receive all employee
+===============================
+public class PrintAllEmployeeDetails {
+
+	public static void main(String[] args) {
+
+		TotalOperationOnEmployeeTable total= new ImplTotalOperationOnEmployeeTable();
+		try {
+			List<Employee> listEmployees= total.printAllEmployees();
+			listEmployees.forEach(s->System.out.println(s.toString()));
+			
+		} catch (EmployeeNotFound e) {
+			
+			System.out.println(e.getMessage());
+		}
+		
+		
+	}
+
+}
